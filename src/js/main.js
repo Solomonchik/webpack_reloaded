@@ -4,6 +4,7 @@
 
 import '../scss/mein.scss';
 import './_vendor';
+import './_app';
 
 
 $(document).ready(function(){

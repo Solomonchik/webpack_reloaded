@@ -131,6 +131,17 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
+/***/ "./src/js/_app.js":
+/*!************************!*\
+  !*** ./src/js/_app.js ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("\n\n//# sourceURL=webpack:///./src/js/_app.js?");
+
+/***/ }),
+
 /***/ "./src/js/_vendor.js":
 /*!***************************!*\
   !*** ./src/js/_vendor.js ***!
@@ -151,7 +162,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jque
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_mein_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/mein.scss */ \"./src/scss/mein.scss\");\n/* harmony import */ var _scss_mein_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_mein_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _vendor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./_vendor */ \"./src/js/_vendor.js\");\n/**\n * Main project javascript file (entry point)\n **/\n\n\n\n\n\n$(document).ready(function(){\n    if ($) {\n        // jQuery is loaded\n        console.log(\"Yeah!\");\n    } else {\n        // jQuery is not loaded\n        console.log(\"Doesn't Work\");\n    }\n});\n\n/////////////////////////////////////////////////////////////////////////////\n\nconsole.log(\"hi! Распиздяй!\");\n\n//# sourceURL=webpack:///./src/js/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_mein_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/mein.scss */ \"./src/scss/mein.scss\");\n/* harmony import */ var _scss_mein_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_mein_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _vendor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./_vendor */ \"./src/js/_vendor.js\");\n/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./_app */ \"./src/js/_app.js\");\n/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_app__WEBPACK_IMPORTED_MODULE_2__);\n/**\n * Main project javascript file (entry point)\n **/\n\n\n\n\n\n\n$(document).ready(function(){\n    if ($) {\n        // jQuery is loaded\n        console.log(\"Yeah!\");\n    } else {\n        // jQuery is not loaded\n        console.log(\"Doesn't Work\");\n    }\n});\n\n/////////////////////////////////////////////////////////////////////////////\n\nconsole.log(\"hi! Распиздяй!\");\n\n//# sourceURL=webpack:///./src/js/main.js?");
 
 /***/ }),
 
