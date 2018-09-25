@@ -1,1 +1,29 @@
-# webpack_reloaded
+## Creating webpack project from the scratch
+
+
+Initialize new npm project (create new package.json)
+...
+
+npm init
+...
+
+install webpack4
+...
+
+npm install webpack --save -dev
+...
+npm install webpack-cli --save -dev
+...
+add dev and production webpack scripts to your package.json
+...
+"script" {
+    "dev": "webpack --mode development ./src/js/main.js --output ./dist/js/main.js",
+    "production": "webpack --mode production ./src/js/main.js --output ./dist/js/main.js"
+},
+...
+
+Launch with commands!
+...
+npm run dev
+...
+npm run production
