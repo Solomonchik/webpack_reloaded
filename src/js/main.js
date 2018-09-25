@@ -3,8 +3,7 @@
  **/
 
 import '../scss/mein.scss';
-import $ from 'jquery';
-import 'bootstrap';
+import './_vendor';
 
 
 $(document).ready(function(){
