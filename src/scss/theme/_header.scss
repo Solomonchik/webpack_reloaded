@@ -1,0 +1,17 @@
+#container {
+  display: flex;
+  justify-content: flex-end;
+  width: 800px;
+  margin: auto;
+  a {
+    font-size: 28px;
+    color: orangered;
+    text-decoration: none;
+    margin-right: 30px;
+    &:hover {
+      color: white;
+      border-bottom: 2px solid orangered;
+      transition: .2s;
+    }
+  }
+}
